@@ -1,0 +1,6 @@
+﻿$(function() {
+
+    $(".project-name").html("");
+
+
+});
