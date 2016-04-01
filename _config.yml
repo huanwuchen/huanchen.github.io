@@ -23,7 +23,7 @@ kramdown:
 
 
 # 地址设置
-baseurl: "/huanwuchen.github.io"
+baseurl: "/"
 url: "http://huanwuchen.github.io"
 
 
