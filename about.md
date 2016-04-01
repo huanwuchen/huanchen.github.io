@@ -17,11 +17,11 @@ permalink: /about/
 
 教育经历
 ===
-新余学院(Panzhihua University)  2011~2014
+新余学院  2011~2014
 
 联系方式
 ===
 
-- 新浪微博:[Guovz](http://www.weibo.com/{{site.weibo_username}}/)
-- github:[Guovz](https://github.com/{{site.github_username}})
+- 新浪微博:[Huanchen](http://www.weibo.com/{{site.weibo_username}}/)
+- github:[Huanchen](https://github.com/{{site.github_username}})
 - Email:[978839399@qq.com](978839399@qq.com)
