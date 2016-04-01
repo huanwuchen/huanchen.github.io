@@ -1,10 +1,18 @@
-node.js 调试方法
+---
+layout: post
+title: node.js 调试方法
+tags:  [node,debug]
+categories: [Node开发]
+author: huanchen
+excerpt: "记录一下node.js的调试"
+---
+
+
 
 1.chrome调试：安装node-inspector  命令：npm install -g node-inspector
 
  cmd切换到js目录，执行 node-debug app.js
 
- 
 
 
 2.vs2012、vs2013、vs2015 安装 ntvs.exe 
