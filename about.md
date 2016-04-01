@@ -5,7 +5,7 @@ id: id_about_me
 permalink: /about/
 ---
 
-![我就是我](http://7xlgu7.com1.z0.glb.clouddn.com/me.jpg)
+![我就是我](http://7xlgu7.com1.z0.glb.clouddn.com/me.jpg1)
 
 我的格言
 ===
@@ -17,11 +17,11 @@ permalink: /about/
 
 教育经历
 ===
-攀枝花学院(Panzhihua University)  2011~2015
+新余学院(Panzhihua University)  2011~2014
 
 联系方式
 ===
 
-- 新浪微博:[Guovz](http://www.weibo.com/guovz/)
-- github:[Guovz](https://github.com/guovz)
-- Email:[pzhuwjl@qq.com](pzhuwjl@qq.com)
+- 新浪微博:[Guovz](http://www.weibo.com/{{site.weibo_username}}/)
+- github:[Guovz](https://github.com/{{site.github_username}})
+- Email:[978839399@qq.com](978839399@qq.com)
