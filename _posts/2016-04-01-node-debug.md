@@ -1,5 +1,5 @@
-# node.js 调试方法
- #
+node.js 调试方法
+
 1.chrome调试：安装node-inspector  命令：npm install -g node-inspector
 
  cmd切换到js目录，执行 node-debug app.js
