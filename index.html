@@ -1,21 +1,38 @@
-﻿<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <title>Huanwuchen.GitHub.io by huanwuchen</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-</head>
-<body>
-    <section class="page-header">
-        <h1 class="project-name">Huanwuchen.GitHub.io</h1>
-        <h2 class="project-tagline">幻尘 博客</h2>
-    </section>
-
-    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-</body>
-</html>
+---
+layout: default
+---
+<div class="col-md-9 col-content">
+    {% for post in paginator.posts %}
+      {% include posts.html%}
+    {% endfor %}
+    <nav>
+        <ul class="pagination pagination-posts">
+          {% if paginator.total_pages > 1 %}
+              {% if paginator.previous_page %}
+                <li>
+                  <a href="{{ paginator.previous_page_path | prepend: site.url}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                </li>
+              {% endif %}
+              {% for page in (1..paginator.total_pages) %}
+                  {% if page == paginator.page %}
+                    <li class="active"><span>{{ page }}</span></li>
+                  {% elsif page == 1 %}
+                    <li><a href="{{ site.url }}">{{ page }}</a></li>
+                  {% else %}
+                    <li><a href="{{ site.url}}/page/{{ page }}">{{ page }}</a></li>
+                  {% endif %}
+                  {% endfor %}
+              {% if !paginator.next_page %}
+                  <li>
+                    <a href="{{ paginator.next_page_path | prepend: site.url}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+                  </li>
+              {% endif %}
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+<div class="col-md-3 col-sidebar">
+    {% include author.html%}
+    {% include categories.html%}
+    {% include tags.html%}
+</div>
