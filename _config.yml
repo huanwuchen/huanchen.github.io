@@ -4,14 +4,14 @@ version: "1.0"
 permalink: /:year/:month/:day/:title/
 
 # 站点设置
-title: "Guovz"
-email: pzhuwjl@qq.com
-description: "王继林的个人博客"
-keywords: "Guovz"
+title: "Huanchen"
+email: 978839399@qq.com
+description: "幻尘的个人博客"
+keywords: "huanchen"
 
 # 用户信息设置
-weibo_username: Guovz
-github_username: guovz
+weibo_username: huanchenyuan
+github_username: huanchenyuan
 
 # Markdown设置
 kramdown:
