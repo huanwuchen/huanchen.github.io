@@ -7,8 +7,6 @@ author: huanchen
 excerpt: "记录一下node.js的调试"
 ---
 
-
-
 1.chrome调试：安装node-inspector  命令：npm install -g node-inspector
 
  cmd切换到js目录，执行 node-debug app.js
