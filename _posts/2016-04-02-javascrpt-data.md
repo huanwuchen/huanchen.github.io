@@ -7,7 +7,7 @@ author: huanchen
 excerpt: "data 原生用法 jquery 用法"
 ---
 
-
+<pre>
 //原生js：
  
 document.getElementById("obj").dataset.bid = "1";//赋值
